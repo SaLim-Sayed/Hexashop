@@ -18,7 +18,7 @@ export default async function Blog() {
   const data = await getData();
   const products = data.products;
   return (
-    <div className=" container mx-8 grid justify-center lg:grid-cols-4 md:grid-col-4 grid-cols-2 gap-10">
+    <div className=" container  grid justify-center lg:grid-cols-3 md:grid-col-3 grid-cols-1 gap-10">
       {products.map((product) => (
         <Link
           key={product.id}

@@ -7,7 +7,8 @@ import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 
 export default function Navbar() {
   return (
-    <div className=" mx-auto border-orange-300 border-b-2  h-16 mb-8 flex items-center  justify-between">
+   <div className="container">
+     <div className="  mx-auto border-orange-300 border-b-2  h-16 mb-8 flex items-center  justify-between">
       <Logo />
       <div className=" flex gap-10  mx-8   font-bold">
         <DarkModeToggle/>
@@ -23,5 +24,6 @@ export default function Navbar() {
         <Button />
       </div>
     </div>
+   </div>
   );
 }

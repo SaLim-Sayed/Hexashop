@@ -8,7 +8,8 @@ import { useContext } from "react";
 export const Footer = () => {
   const{mode}=useContext(ThemeContext)
   return (
-    <div className={`${mode==="dark"?"text-cyan-200":"text-cyan-800"} border-t-2 border-orange-300  h-10 mb-0  flex justify-between  items-center`}>
+    <div className="container">
+      <div className={`${mode==="dark"?"text-cyan-200":"text-cyan-800"} border-t-2 border-orange-300  h-10 mb-0  flex justify-between  items-center`}>
       <div className="flex justify-start mx-4 cursor-not-allowed selection:bg-cyan-900 ">
         <Copyright /> 2023 Hexashop All rights reserved
       </div>
@@ -31,6 +32,7 @@ export const Footer = () => {
           className=" opacity-50 transition-opacity duration-75 ease-in hover:opacity-100  cursor-pointer rounded-lg p-1 bg-gradient-to-b from-[#5C53CA] via-[#D032AD] to-[#FFA34B]"
         />
       </div>
+    </div>
     </div>
   );
 };

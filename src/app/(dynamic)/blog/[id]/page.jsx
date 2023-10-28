@@ -51,9 +51,9 @@ export default async function Post({ params }) {
           {product.images.map((image) => (
             <Image
               key={product.id}
-              className=" h-[200px] bg-orange-200 hover:border-teal-400 hover:bg-teal-300  border-orange-300 border-2 p-1 rounded-xl "
+              className="   h-[200px] bg-orange-200 hover:border-teal-400 hover:bg-teal-300  border-orange-300 border-2 p-1 rounded-xl "
               src={image}
-              width={200}
+              width={300}
               height={200}
               // Make the image display full width
               alt=""

@@ -227,3 +227,13 @@
     transform: rotate(0deg);
   }
 }
+
+.title{
+  font-size: 32px;
+  font-weight: 900;
+  background: linear-gradient(to bottom, #FDBA74, #bbb );
+  background-clip:text;
+  -webkit-text-fill-color:  transparent;
+  text-transform:capitalize;
+   
+}

@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning={true}>
       <body
         suppressHydrationWarning={true}
-        className={`${inter.className}  container mx-auto bg-slate-950 text-teal-50`}
+        className={`${inter.className}   text-teal-50`}
       >
         <ThemeProvider>
           <Navbar />

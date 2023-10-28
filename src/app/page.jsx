@@ -4,7 +4,7 @@ import Hero from "public/images/hero.svg"
 
 export default function Home() {
   return (
-  <div className="container flex items-center mx-32  gap-64 ">
+  <div className="container flex items-center   gap-20 ">
     <div className=" flex-1 flex flex-col gap-[50px]">
     <h1 className={styles.title}> your one-step e-commerce destination</h1>
     <p className=' text-2xl leading-8'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam saepe sapiente optio magni repudiandae aspernatur facilis,</p>
